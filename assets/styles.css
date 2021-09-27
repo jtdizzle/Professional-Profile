@@ -85,6 +85,7 @@ body {
   width: 100%;
   padding: 20px;
   line-height: 1.8;
+  
 }
 
 /* Footer */
@@ -94,6 +95,26 @@ body {
   background-color: #58595a;
   color:aliceblue;
 }
+
+/* [1] The container */
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  width: 50%;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+  filter: grayscale(100%);
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+  filter: grayscale(0);
+}
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
@@ -118,3 +139,9 @@ body {
     transform: rotate(359deg);
   }
 }
+
+.imageSpace2{
+  color:aliceblue;
+  line-height: 1.6;
+}
+
