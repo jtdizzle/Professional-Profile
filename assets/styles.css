@@ -35,7 +35,7 @@ body {
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color:aliceblue;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -65,7 +65,7 @@ body {
 .side {
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color:aliceblue;
   background-image: radial-gradient(white, black);
   padding: 20px;
 }
@@ -74,8 +74,8 @@ body {
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: white;
-  background-image: radial-gradient(white, black);
+  background-color:aliceblue;
+  background-image: radial-gradient(aliceblue, black);
   padding: 20px;
 }
 
@@ -143,5 +143,11 @@ body {
 .imageSpace2{
   color:aliceblue;
   line-height: 1.6;
+}
+
+.email2 {
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ 
 }
 
